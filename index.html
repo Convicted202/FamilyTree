@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>App</title>
+    <!-- build:css stylesheets/vendor/gumby.css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/gumby/css/gumby.css" />
+    <!-- endbuild -->
+    <!-- build:css stylesheets/css/app.css -->
+    <link rel="stylesheet" type="text/css" href="./src/stylesheets/css/app.css" />
+    <!-- endbuild -->
+</head>
+<body>
+    <div id="app-wrapper">
+        <div class="row" id="app-container">
+            <!-- component Navigation -->
+            <div class="columns" id="left-sidebar">
+                <ul class="menu">
+                    <li class="menu-item menu-user"><a href="/#"><i class="icon-user"></i></a></li>
+                    <li class="menu-item"><a class="active" href="/#playground"><i class="icon-flow-tree"></i></a></li>
+                    <li class="menu-item"><a href="/#preferences"><i class="icon-tools"></i></a></li>
+                    <li class="menu-item menu-logo"><a href="/#"><i class="icon-home"></i></a></li>
+                </ul>
+            </div>
+            <!-- component Navigation -->
+            <!-- component Content -->
+            <div class="columns" id="main">
+                <div class="row" id="content-wrapper">
+
+                    <div id="builder-view">
+                        <div class="eight columns" id="content">
+                            <!-- component ContentToolbar -->
+                            <div class="content-toolbar">
+                                <ul class="toolbar-menu">
+                                    <li class="toolbar-item">
+                                        <a href="/#"><i class="icon-plus"></i></a>
+                                    </li>
+                                    <li class="toolbar-item">
+                                        <a href="/#"><i class="icon-download"></i></a>
+                                    </li>
+                                    <li class="toolbar-item">
+                                        <a href="/#"><i class="icon-export"></i></a>
+                                    </li>
+                                    <li class="toolbar-item">
+                                        <a href="/#"><i class="icon-bag"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- component ContentToolbar -->
+
+                            <!-- component ContentSurface -->
+                            <div class="sample-element">
+                                <div class="photography-wrapper">
+                                    <div class="photography"><i class="icon-user"></i></div>
+                                </div>
+                                <div class="brief-info">
+                                    <p class="full-name">John Doe</p>
+                                    <p class="dates">1900-2000</p>
+                                </div>
+                            </div>
+                            <!-- component ContentSurface -->
+                        </div>
+
+                        <div class="four columns" id="right-sidebar">
+                            <!-- component SideToolbar -->
+                            <div class="row btn-toolbar">
+                                <div class="buttons">
+                                    <div class="medium default btn icon-left icon-right-open-big entypo close-button">
+                                        <a href="#">Close</a>
+                                    </div>
+                                    <div class="toggle-edit">
+                                        <div class="medium default btn icon-right icon-pencil entypo edit-button">
+                                            <a href="#">Edit</a>
+                                        </div>
+                                        <div class="medium default btn icon-right icon-eye entypo view-button hidden">
+                                            <a href="#">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- component SideToolbar -->
+                            <!-- component DetailedList -->
+                            <div class="row personal-info">
+                                <section class="main-info">
+                                    <div class="photo">
+                                        <i class="icon-user"></i>
+                                    </div>
+                                    <div class="main-stats">
+                                        <p class="full-name">John Doe</p>
+                                        <p class="dates">1900-2000</p>
+                                    </div>
+                                    <div class="info">
+                                        <ul class="stats">
+                                            <li class="stat-item">
+                                                <b>Date of Birth: </b><p>January 01 1900</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Born in: </b><p>Nowhere</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Date of Death: </b><p>January 01 2000</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Died in: </b><p>Sameplace</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Nationality: </b><p>American</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Etnicity: </b><p>Caucasian</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="family-status">
+                                        <ul class="stats">
+                                            <li class="stat-item">
+                                                <b>Relationship Status: </b><p>Married</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>With: </b><p>Leslie Doe and so on and so on</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Date: </b><p>January 01 1950</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Place: </b><p>Middle earth</p>
+                                            </li>
+                                            <li class="stat-item">
+                                                <b>Children: </b><p>Nowhere</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="additional-info">
+                                        <ul class="stats">
+                                            <li class="stat-item">
+                                                <b>Job: </b><p>Plumber</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- component DetailedList -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- component Content -->
+        </div>
+    </div>
+
+    <!-- build:js js/bundle.min.js -->
+    <script type="text/javascript" src="./src/js/bundle.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

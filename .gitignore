@@ -1,0 +1,6 @@
+node_modules
+bower_components
+src/stylesheets/css/**
+src/js/bundle.js
+src/stylesheets/sass/.sass-cache
+dist/**
